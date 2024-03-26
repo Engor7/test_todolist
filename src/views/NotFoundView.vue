@@ -6,5 +6,7 @@
 
 <style scoped lang="scss">
 .not-found {
+  text-align: center;
+  margin-top: 60px;
 }
 </style>

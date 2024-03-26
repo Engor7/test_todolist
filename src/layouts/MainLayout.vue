@@ -13,8 +13,10 @@ import MainNav from '@/components/header/MainNav.vue';
 .main-app {
   max-width: 560px;
   margin: 60px auto;
-  background: #f4f4f6;
+  background: #fff;
   padding: 15px;
   border-radius: 15px;
+  box-shadow: 0 20px 20px #0000000d;
+  border: 2px solid #dadada8c;
 }
 </style>

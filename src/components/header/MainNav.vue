@@ -4,11 +4,11 @@ import { useRoute } from 'vue-router';
 
 const navItems = ref([
   {
-    title: 'To-do List',
+    title: 'Tasks',
     link: '/',
   },
   {
-    title: 'About app',
+    title: 'About',
     link: '/about',
   },
 ]);
@@ -40,26 +40,26 @@ const route = useRoute();
     display: flex;
     gap: 10px;
     list-style: none;
-    border: 1px solid #bebebe;
-    padding: 2px;
-    border-radius: 8px;
+    background: #f1f2f5;
+    padding: 3px;
+    border-radius: 10px;
   }
 
   &__item {
-    border-radius: 5px;
+    border-radius: 8px;
 
     a {
       display: inline-block;
       text-decoration: none;
-      color: #000;
+      color: #838383;
       padding: 5px 10px;
     }
 
     &_active {
-      background: #494949;
+      background: #fff;
 
       a {
-        color: #fff;
+        color: #000;
       }
     }
   }

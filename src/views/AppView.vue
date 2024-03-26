@@ -1,13 +1,7 @@
-<script setup></script>
+<script setup>
+import TaskList from '@/components/tasks/TaskList.vue';
+</script>
 
 <template>
-  <div class="list">list</div>
+  <TaskList />
 </template>
-
-<style lang="scss">
-.list {
-  background: #fff;
-  border-radius: 10px;
-  padding: 100px 10px;
-}
-</style>
